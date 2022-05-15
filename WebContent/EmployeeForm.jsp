@@ -12,10 +12,10 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
 </head>
 <body>
-	<h1 class="text-primary text-center mt-5">Employee Management</h1>
+	<h1 class="text-light text-center mt-5">Employee Management</h1>
 	<div class="container ">
 	<div class="jumbotron mt-5">
-		<h1 class="text-dark text-center">Registration Form</h1>
+		<h1 class="text-secondary text-center">Registration Form</h1>
 				<form id="formItem" name="formItem">
 				<div class="form-group col-md-6">	
 					<label>Employee Name</label>						
@@ -55,7 +55,7 @@
 				<div id="alertSuccess" class="alert alert-success mt-5"></div>
 				<div id="alertError" class="alert alert-danger mt-5"></div>
 			</div>
-			<h1 class="text-primary text-center mt-5">Employee List</h1>
+			<h1 class="text-light text-center mt-5">Employee List</h1>
 						<div id="divItemsGrid" class="float-right col-12  mt-5 text-white text-center">
 					<%
 					
@@ -68,8 +68,8 @@
 </body>
 <style>
 	body{
-			background: rgb(34,193,195);
-			background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+			background: rgb(2,0,36);
+			background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 		}
 </style>
 </html>

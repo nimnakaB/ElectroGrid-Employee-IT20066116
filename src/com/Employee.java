@@ -59,7 +59,7 @@ public class Employee { // A common method to connect to the DB
 				return "Error while connecting to the database for reading.";
 			}
 			// Prepare the html table to be displayed
-			output = "<div class='w-100'><table class='table table-dark table-hover table-bordered'><tr><th>Name</th>"
+			output = "<div class='w-100'><table class='table table-secondary table-hover table-bordered'><tr><th>Name</th>"
 					+ "<th>Address</th><th>Phone</th>" + "<th>Gender</th>" + "<th>Age</th>" + "<th>Email</th>"
 					+ "<th>Update</th><th>Remove</th></tr></div>";
 			String query = "select * from employee";
